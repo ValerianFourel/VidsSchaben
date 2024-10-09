@@ -1,0 +1,898 @@
+1728047888010	geckodriver	INFO	Listening on 127.0.0.1:49481
+1728302177120	geckodriver	INFO	Listening on 127.0.0.1:56861
+1728302177122	geckodriver::capabilities	DEBUG	Trying to read firefox version from ini files
+1728302177123	geckodriver::capabilities	DEBUG	Found version 131.0
+1728302177124	geckodriver::browser	DEBUG	Backing up prefs to "/tmp/rust_mozprofilezGXIRA/user.geckodriver_backup"
+1728302177127	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "44167" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezGXIRA"
+1728302177128	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1
+1728302177128	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilezGXIRA/MarionetteActivePort
+1728302177128	geckodriver::marionette	TRACE	Retrying in 100ms
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1728302177228	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilezGXIRA/MarionetteActivePort
+1728302177228	geckodriver::marionette	TRACE	Retrying in 100ms
+1728302177328	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilezGXIRA/MarionetteActivePort
+1728302177328	geckodriver::marionette	TRACE	Retrying in 100ms
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1728302177395	RemoteAgent	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1728302177395	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.activity-stream.discoverystream.region-weather-config to 
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.activity-stream.newtabWallpapers.enabled to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.activity-stream.showSponsoredTopSites to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.region.network.url to 
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.safebrowsing.blockedURIs.enabled to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.safebrowsing.downloads.enabled to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.safebrowsing.phishing.enabled to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.startup.couldRestoreSession.count to -1
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.remote.unloadDelayMs to 0
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.topsites.contile.enabled to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.merino.endpointURL to 
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref dom.file.createInChild to true
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref dom.input_events.security.minNumTicks to 0
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref dom.input_events.security.minTimeElapsedInMS to 0
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref dom.navigation.locationChangeRateLimit.count to 0
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref dom.screenorientation.allow-lock to true
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref dom.successive_dialog_time_limit to 0
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref extensions.blocklist.detailsURL to http://%(server)s/extensions-dummy/blocklistDetailsURL
+1728302177396	RemoteAgent	DEBUG	Setting recommended pref extensions.blocklist.itemURL to http://%(server)s/extensions-dummy/blocklistItemURL
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref extensions.hotfix.url to http://%(server)s/extensions-dummy/hotfixURL
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref extensions.systemAddon.update.enabled to false
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref extensions.update.background.url to http://%(server)s/extensions-dummy/updateBackgroundURL
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref extensions.update.url to http://%(server)s/extensions-dummy/updateURL
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.get.url to http://%(server)s/extensions-dummy/repositoryGetURL
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.search.browseURL to http://%(server)s/extensions-dummy/repositoryBrowseURL
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref geo.provider.network.url to 
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref identity.fxaccounts.auth.uri to https://{server}/dummy/fxa
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref network.connectivity-service.enabled to false
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref remote.prefs.recommended.applied to true
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref security.remote_settings.intermediates.enabled to false
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref signon.autofillForms to false
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref toolkit.telemetry.server to https://%(server)s/telemetry-dummy/
+1728302177397	RemoteAgent	DEBUG	Setting recommended pref widget.windows.window_occlusion_tracking.enabled to false
+1728302177397	RemoteAgent	DEBUG	WebDriver BiDi enabled
+1728302177398	Marionette	INFO	Marionette enabled
+1728302177398	Marionette	TRACE	Received observer notification final-ui-startup
+1728302177399	RemoteAgent	TRACE	Received observer notification final-ui-startup
+1728302177429	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilezGXIRA/MarionetteActivePort
+1728302177429	geckodriver::marionette	TRACE	Retrying in 100ms
+1728302177503	Marionette	INFO	Listening on port 35799
+1728302177504	Marionette	DEBUG	Marionette is listening
+1728302177507	RemoteAgent	TRACE	Available local IP addresses: 127.0.0.1, [::1]
+1728302177512	RemoteAgent	DEBUG	Setting recommended pref permissions.isolateBy.userContext to true
+WebDriver BiDi listening on ws://127.0.0.1:44167
+Read port: 35799
+1728302177561	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53830
+1728302177567	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:35799.
+1728302177655	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","pageLoadStrategy":"normal"}]
+1728302177658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1728302177658	Marionette	DEBUG	Waiting for initial application window
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1728302178577	Marionette	TRACE	Received observer notification browser-idle-startup-tasks-finished
+1728302178577	RemoteAgent	TRACE	Received observer notification browser-idle-startup-tasks-finished
+1728302178581	RemoteAgent	TRACE	[8] ProgressListener Start: expectNavigation=false resolveWhenStarted=false unloadTimeout=5000 waitForExplicitStart=false
+1728302178581	RemoteAgent	TRACE	[8] ProgressListener Setting unload timer (5000ms)
+1728302178581	RemoteAgent	TRACE	[8] Wait for initial navigation: isInitial=false, isLoadingDocument=false
+1728302178581	RemoteAgent	TRACE	[8] Document already finished loading: about:blank
+1728302178581	RemoteAgent	TRACE	[8] ProgressListener Stop: has error=false url=about:blank
+1728302178590	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"65e7bb13-9861-4850-b6b7-ab56f885ca7b","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"131.0","platformName":"linux","unhandledPromptBehavior":"dismiss and notify","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0","moz:buildID":"20240923135042","moz:headless":true,"moz:platformVersion":"6.8.0-45-generic","moz:processID":13228,"moz:profile":"/tmp/rust_mozprofilezGXIRA","moz:shutdownTimeout":60000,"pageLoadStrategy":"normal","timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"setWindowRect":true,"strictFileInteractability":false,"moz:accessibilityChecks":false,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{}}}]
+1728302178592	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"65e7bb13-9861-4850-b6b7-ab56f885ca7b","capabilities":{"acceptInsecureCerts":true,"browserNam ... dPromptBehavior":"dismiss and notify","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"}}}
+1728302178595	webdriver::server	DEBUG	-> POST /session/65e7bb13-9861-4850-b6b7-ab56f885ca7b/url {"url": "https://cobalt.tools/"}
+1728302178597	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://cobalt.tools/"}]
+1728302178601	Marionette	TRACE	[8] Received event beforeunload for about:blank
+1728302178678	Marionette	TRACE	Remoteness change detected. Set new top-level browsing context to 11
+1728302178747	Marionette	TRACE	[11] Received event beforeunload for about:blank
+1728302178749	Marionette	TRACE	[11] Received event pagehide for about:blank
+[Parent 13228, IPC I/O Parent] WARNING: process 13350 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+1728302178980	Marionette	TRACE	[11] Received event DOMContentLoaded for https://cobalt.tools/
+1728302179172	Marionette	TRACE	[11] Received event pageshow for https://cobalt.tools/
+1728302179172	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1728302179174	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1728302179177	webdriver::server	DEBUG	-> POST /session/65e7bb13-9861-4850-b6b7-ab56f885ca7b/element {"using": "css selector", "value": "[id=\"link-area\"]"}
+1728302179181	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"link-area\"]"}]
+1728302179186	RemoteAgent	TRACE	WebDriverProcessData actor created for PID 13417
+1728302179188	Marionette	TRACE	[11] MarionetteCommands actor created for window id 12884901889
+1728302179198	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d6f8a8f3-22fa-403d-951d-15aacfa92234"}}]
+1728302179198	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"d6f8a8f3-22fa-403d-951d-15aacfa92234"}}
+1728302179201	webdriver::server	DEBUG	-> POST /session/65e7bb13-9861-4850-b6b7-ab56f885ca7b/element/d6f8a8f3-22fa-403d-951d-15aacfa92234/value {"text": "https://ww ... c", "h", "?", "v", "=", "N", "q", "v", "o", "o", "B", "J", "8", "F", "Y", "8"], "id": "d6f8a8f3-22fa-403d-951d-15aacfa92234"}
+1728302179202	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementSendKeys",{"id":"d6f8a8f3-22fa-403d-951d-15aacfa92234","text":"https://www.youtube.com/watch?v=NqvooBJ8FY8","value":["h","t","t","p","s",":","/","/","w","w","w",".","y","o","u","t","u","b","e",".","c","o","m","/","w","a","t","c","h","?","v","=","N","q","v","o","o","B","J","8","F","Y","8"]}]
+1728302179274	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1728302179275	webdriver::server	DEBUG	<- 200 OK {"value":null}
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8cedb510aaf82c0d&lang=auto, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1728302184277	webdriver::server	DEBUG	-> POST /session/65e7bb13-9861-4850-b6b7-ab56f885ca7b/element {"using": "css selector", "value": "[id=\"download-button\"]"}
+1728302184279	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"download-button\"]"}]
+1728302184282	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b85cd9d8-8bca-4f72-8475-4821cb1a0d74"}}]
+1728302184282	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"b85cd9d8-8bca-4f72-8475-4821cb1a0d74"}}
+1728302184290	webdriver::server	DEBUG	-> POST /session/65e7bb13-9861-4850-b6b7-ab56f885ca7b/execute/sync {"script": "/* isDisplayed */return (function(){return (fu ... ts);}\n).apply(null, arguments);", "args": [{"element-6066-11e4-a52e-4f735466cecf": "b85cd9d8-8bca-4f72-8475-4821cb1a0d74"}]}
+1728302184295	Marionette	DEBUG	0 -> [0,6,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"b85cd9d8-8bca-4f72-8475-4821cb1a0d74"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... ined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}]
+1728302184316	Marionette	DEBUG	0 <- [1,6,null,{"value":true}]
+1728302184317	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1728302184319	webdriver::server	DEBUG	-> GET /session/65e7bb13-9861-4850-b6b7-ab56f885ca7b/element/b85cd9d8-8bca-4f72-8475-4821cb1a0d74/enabled 
+1728302184320	Marionette	DEBUG	0 -> [0,7,"WebDriver:IsElementEnabled",{"id":"b85cd9d8-8bca-4f72-8475-4821cb1a0d74"}]
+1728302184323	Marionette	DEBUG	0 <- [1,7,null,{"value":true}]
+1728302184324	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1728302184326	webdriver::server	DEBUG	-> POST /session/65e7bb13-9861-4850-b6b7-ab56f885ca7b/element/b85cd9d8-8bca-4f72-8475-4821cb1a0d74/click {"id": "b85cd9d8-8bca-4f72-8475-4821cb1a0d74"}
+1728302184327	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementClick",{"id":"b85cd9d8-8bca-4f72-8475-4821cb1a0d74"}]
+1728302184337	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1728302184551	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1728302184551	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1728302184552	webdriver::server	DEBUG	<- 200 OK {"value":null}
+[Parent 13228, IPC I/O Parent] WARNING: process 13455 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_api/v1?ray=8cedb555bdb92c0d&lang=auto, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1728302194554	webdriver::server	DEBUG	-> DELETE /session/65e7bb13-9861-4850-b6b7-ab56f885ca7b 
+1728302194555	Marionette	DEBUG	0 -> [0,9,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1728302194556	Marionette	INFO	Stopped listening on port 35799
+1728302194559	Marionette	TRACE	[11] MarionetteCommands actor destroyed for window id 12884901889
+1728302195040	Marionette	TRACE	Received observer notification quit-application
+1728302195044	Marionette	TRACE	Received observer notification quit-application
+1728302195045	RemoteAgent	DEBUG	Resetting recommended pref apz.content_response_timeout
+1728302195045	RemoteAgent	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1728302195045	RemoteAgent	DEBUG	Resetting recommended pref browser.download.panel.shown
+1728302195045	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.activity-stream.discoverystream.region-weather-config
+1728302195045	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.activity-stream.newtabWallpapers.enabled
+1728302195045	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled
+1728302195045	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.activity-stream.showSponsoredTopSites
+1728302195046	RemoteAgent	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1728302195046	RemoteAgent	DEBUG	Resetting recommended pref browser.region.network.url
+1728302195046	RemoteAgent	DEBUG	Resetting recommended pref browser.safebrowsing.blockedURIs.enabled
+1728302195050	RemoteAgent	DEBUG	Resetting recommended pref browser.safebrowsing.downloads.enabled
+1728302195053	RemoteAgent	DEBUG	Resetting recommended pref browser.safebrowsing.phishing.enabled
+1728302195055	RemoteAgent	DEBUG	Resetting recommended pref browser.startup.couldRestoreSession.count
+1728302195055	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.remote.unloadDelayMs
+1728302195055	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1728302195055	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1728302195055	RemoteAgent	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1728302195055	RemoteAgent	DEBUG	Resetting recommended pref browser.topsites.contile.enabled
+1728302195056	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.merino.endpointURL
+1728302195058	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1728302195059	RemoteAgent	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1728302195059	RemoteAgent	DEBUG	Resetting recommended pref dom.file.createInChild
+1728302195059	RemoteAgent	DEBUG	Resetting recommended pref dom.input_events.security.minNumTicks
+1728302195059	RemoteAgent	DEBUG	Resetting recommended pref dom.input_events.security.minTimeElapsedInMS
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref dom.navigation.locationChangeRateLimit.count
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref dom.screenorientation.allow-lock
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref dom.successive_dialog_time_limit
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref extensions.blocklist.detailsURL
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref extensions.blocklist.itemURL
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref extensions.hotfix.url
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref extensions.systemAddon.update.enabled
+1728302195060	RemoteAgent	DEBUG	Resetting recommended pref extensions.update.background.url
+1728302195061	RemoteAgent	DEBUG	Resetting recommended pref extensions.update.url
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.get.url
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.search.browseURL
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref geo.provider.network.url
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref identity.fxaccounts.auth.uri
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref network.connectivity-service.enabled
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref remote.prefs.recommended.applied
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref security.notification_enable_delay
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref security.remote_settings.intermediates.enabled
+1728302195062	RemoteAgent	DEBUG	Resetting recommended pref signon.autofillForms
+1728302195063	RemoteAgent	DEBUG	Resetting recommended pref toolkit.telemetry.server
+1728302195063	RemoteAgent	DEBUG	Resetting recommended pref widget.windows.window_occlusion_tracking.enabled
+1728302195063	RemoteAgent	DEBUG	Resetting recommended pref permissions.isolateBy.userContext
+1728302195063	RemoteAgent	TRACE	Received observer notification quit-application
+1728302195064	Marionette	DEBUG	Marionette stopped listening
+1728302195064	Marionette	DEBUG	0 <- [1,9,null,{"cause":"shutdown","forced":false,"in_app":true}]
+1728302195109	webdriver::server	DEBUG	Teardown session
+1728302195111	Marionette	DEBUG	Closed connection 0
+[Parent 13228, IPC I/O Parent] WARNING: process 13312 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+[Parent 13228, IPC I/O Parent] WARNING: process 13417 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+[Parent 13228, IPC I/O Parent] WARNING: process 13461 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+1728302195309	geckodriver::browser	DEBUG	Browser process stopped: exit status: 0
+1728302195329	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1728302742662	geckodriver	INFO	Listening on 127.0.0.1:33563
+1728302742665	geckodriver::capabilities	DEBUG	Trying to read firefox version from ini files
+1728302742666	geckodriver::capabilities	DEBUG	Found version 131.0
+1728302742667	geckodriver::browser	DEBUG	Backing up prefs to "/tmp/rust_mozprofileKArgIL/user.geckodriver_backup"
+1728302742670	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "47829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKArgIL"
+1728302742670	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1
+1728302742671	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofileKArgIL/MarionetteActivePort
+1728302742671	geckodriver::marionette	TRACE	Retrying in 100ms
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1728302742771	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofileKArgIL/MarionetteActivePort
+1728302742771	geckodriver::marionette	TRACE	Retrying in 100ms
+1728302742871	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofileKArgIL/MarionetteActivePort
+1728302742871	geckodriver::marionette	TRACE	Retrying in 100ms
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1728302742939	RemoteAgent	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1728302742939	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1728302742939	RemoteAgent	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1728302742940	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.activity-stream.discoverystream.region-weather-config to 
+1728302742940	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.activity-stream.newtabWallpapers.enabled to false
+1728302742940	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled to false
+1728302742940	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.activity-stream.showSponsoredTopSites to false
+1728302742940	RemoteAgent	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1728302742940	RemoteAgent	DEBUG	Setting recommended pref browser.region.network.url to 
+1728302742940	RemoteAgent	DEBUG	Setting recommended pref browser.safebrowsing.blockedURIs.enabled to false
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.safebrowsing.downloads.enabled to false
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.safebrowsing.phishing.enabled to false
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.startup.couldRestoreSession.count to -1
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.remote.unloadDelayMs to 0
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.topsites.contile.enabled to false
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.merino.endpointURL to 
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref dom.file.createInChild to true
+1728302742941	RemoteAgent	DEBUG	Setting recommended pref dom.input_events.security.minNumTicks to 0
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref dom.input_events.security.minTimeElapsedInMS to 0
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref dom.navigation.locationChangeRateLimit.count to 0
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref dom.screenorientation.allow-lock to true
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref dom.successive_dialog_time_limit to 0
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.blocklist.detailsURL to http://%(server)s/extensions-dummy/blocklistDetailsURL
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.blocklist.itemURL to http://%(server)s/extensions-dummy/blocklistItemURL
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.hotfix.url to http://%(server)s/extensions-dummy/hotfixURL
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.systemAddon.update.enabled to false
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.update.background.url to http://%(server)s/extensions-dummy/updateBackgroundURL
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.update.url to http://%(server)s/extensions-dummy/updateURL
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.get.url to http://%(server)s/extensions-dummy/repositoryGetURL
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.search.browseURL to http://%(server)s/extensions-dummy/repositoryBrowseURL
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref geo.provider.network.url to 
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref identity.fxaccounts.auth.uri to https://{server}/dummy/fxa
+1728302742942	RemoteAgent	DEBUG	Setting recommended pref network.connectivity-service.enabled to false
+1728302742943	RemoteAgent	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1728302742943	RemoteAgent	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1728302742943	RemoteAgent	DEBUG	Setting recommended pref remote.prefs.recommended.applied to true
+1728302742943	RemoteAgent	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1728302742943	RemoteAgent	DEBUG	Setting recommended pref security.remote_settings.intermediates.enabled to false
+1728302742943	RemoteAgent	DEBUG	Setting recommended pref signon.autofillForms to false
+1728302742943	RemoteAgent	DEBUG	Setting recommended pref toolkit.telemetry.server to https://%(server)s/telemetry-dummy/
+1728302742943	RemoteAgent	DEBUG	Setting recommended pref widget.windows.window_occlusion_tracking.enabled to false
+1728302742944	RemoteAgent	DEBUG	WebDriver BiDi enabled
+1728302742945	Marionette	INFO	Marionette enabled
+1728302742946	Marionette	TRACE	Received observer notification final-ui-startup
+1728302742948	RemoteAgent	TRACE	Received observer notification final-ui-startup
+1728302742971	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofileKArgIL/MarionetteActivePort
+1728302742971	geckodriver::marionette	TRACE	Retrying in 100ms
+1728302743065	Marionette	INFO	Listening on port 36059
+1728302743067	Marionette	DEBUG	Marionette is listening
+1728302743070	RemoteAgent	TRACE	Available local IP addresses: 127.0.0.1, [::1]
+Read port: 36059
+1728302743077	RemoteAgent	DEBUG	Setting recommended pref permissions.isolateBy.userContext to true
+WebDriver BiDi listening on ws://127.0.0.1:47829
+1728302743085	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:60464
+1728302743097	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:36059.
+1728302743122	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","pageLoadStrategy":"normal"}]
+1728302743124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1728302743125	Marionette	DEBUG	Waiting for initial application window
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1728302744167	Marionette	TRACE	Received observer notification browser-idle-startup-tasks-finished
+1728302744167	RemoteAgent	TRACE	Received observer notification browser-idle-startup-tasks-finished
+1728302744171	RemoteAgent	TRACE	[8] ProgressListener Start: expectNavigation=false resolveWhenStarted=false unloadTimeout=5000 waitForExplicitStart=false
+1728302744171	RemoteAgent	TRACE	[8] ProgressListener Setting unload timer (5000ms)
+1728302744171	RemoteAgent	TRACE	[8] Wait for initial navigation: isInitial=false, isLoadingDocument=false
+1728302744171	RemoteAgent	TRACE	[8] Document already finished loading: about:blank
+1728302744171	RemoteAgent	TRACE	[8] ProgressListener Stop: has error=false url=about:blank
+1728302744179	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"8bb38ee6-740a-4a54-b955-1d8090d784dc","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"131.0","platformName":"linux","unhandledPromptBehavior":"dismiss and notify","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0","moz:buildID":"20240923135042","moz:headless":true,"moz:platformVersion":"6.8.0-45-generic","moz:processID":14250,"moz:profile":"/tmp/rust_mozprofileKArgIL","moz:shutdownTimeout":60000,"pageLoadStrategy":"normal","timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"setWindowRect":true,"strictFileInteractability":false,"moz:accessibilityChecks":false,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{}}}]
+1728302744184	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"8bb38ee6-740a-4a54-b955-1d8090d784dc","capabilities":{"acceptInsecureCerts":true,"browserNam ... dPromptBehavior":"dismiss and notify","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0"}}}
+1728302744185	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/url {"url": "https://cobalt.tools/"}
+1728302744188	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://cobalt.tools/"}]
+1728302744192	Marionette	TRACE	[8] Received event beforeunload for about:blank
+1728302744283	Marionette	TRACE	Remoteness change detected. Set new top-level browsing context to 11
+1728302744408	Marionette	TRACE	[11] Received event beforeunload for about:blank
+1728302744412	Marionette	TRACE	[11] Received event pagehide for about:blank
+[Parent 14250, IPC I/O Parent] WARNING: process 14372 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+1728302744616	Marionette	TRACE	[11] Received event DOMContentLoaded for https://cobalt.tools/
+1728302744798	Marionette	TRACE	[11] Received event pageshow for https://cobalt.tools/
+1728302744798	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1728302744800	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1728302744802	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": "[id=\"link-area\"]"}
+1728302744803	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"link-area\"]"}]
+1728302744807	RemoteAgent	TRACE	WebDriverProcessData actor created for PID 14437
+1728302744809	Marionette	TRACE	[11] MarionetteCommands actor created for window id 12884901889
+1728302744821	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3804e3b9-ca65-4340-95c6-e535be2f5801"}}]
+1728302744822	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"3804e3b9-ca65-4340-95c6-e535be2f5801"}}
+1728302744825	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element/3804e3b9-ca65-4340-95c6-e535be2f5801/value {"text": "https://ww ... c", "h", "?", "v", "=", "N", "q", "v", "o", "o", "B", "J", "8", "F", "Y", "8"], "id": "3804e3b9-ca65-4340-95c6-e535be2f5801"}
+1728302744826	Marionette	DEBUG	0 -> [0,4,"WebDriver:ElementSendKeys",{"id":"3804e3b9-ca65-4340-95c6-e535be2f5801","text":"https://www.youtube.com/watch?v=NqvooBJ8FY8","value":["h","t","t","p","s",":","/","/","w","w","w",".","y","o","u","t","u","b","e",".","c","o","m","/","w","a","t","c","h","?","v","=","N","q","v","o","o","B","J","8","F","Y","8"]}]
+1728302744901	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1728302744902	webdriver::server	DEBUG	<- 200 OK {"value":null}
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8cedc2de19822c0d&lang=auto, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1728302749904	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": "[id=\"download-button\"]"}
+1728302749906	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"download-button\"]"}]
+1728302749909	Marionette	DEBUG	0 <- [1,5,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d5be594e-bc2c-4e85-9699-3a2abdbc2426"}}]
+1728302749909	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"d5be594e-bc2c-4e85-9699-3a2abdbc2426"}}
+1728302749917	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/execute/sync {"script": "/* isDisplayed */return (function(){return (fu ... ts);}\n).apply(null, arguments);", "args": [{"element-6066-11e4-a52e-4f735466cecf": "d5be594e-bc2c-4e85-9699-3a2abdbc2426"}]}
+1728302749922	Marionette	DEBUG	0 -> [0,6,"WebDriver:ExecuteScript",{"args":[{"element-6066-11e4-a52e-4f735466cecf":"d5be594e-bc2c-4e85-9699-3a2abdbc2426"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... ined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"}]
+1728302749942	Marionette	DEBUG	0 <- [1,6,null,{"value":true}]
+1728302749943	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1728302749946	webdriver::server	DEBUG	-> GET /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element/d5be594e-bc2c-4e85-9699-3a2abdbc2426/enabled 
+1728302749947	Marionette	DEBUG	0 -> [0,7,"WebDriver:IsElementEnabled",{"id":"d5be594e-bc2c-4e85-9699-3a2abdbc2426"}]
+1728302749950	Marionette	DEBUG	0 <- [1,7,null,{"value":true}]
+1728302749951	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1728302749954	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element/d5be594e-bc2c-4e85-9699-3a2abdbc2426/click {"id": "d5be594e-bc2c-4e85-9699-3a2abdbc2426"}
+1728302749955	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementClick",{"id":"d5be594e-bc2c-4e85-9699-3a2abdbc2426"}]
+1728302749966	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1728302750179	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1728302750180	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1728302750180	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1728302750183	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302750183	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302750186	Marionette	DEBUG	0 <- [1,9,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302750187	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302750689	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302750690	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302750692	Marionette	DEBUG	0 <- [1,10,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302750693	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302751195	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302751196	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302751199	Marionette	DEBUG	0 <- [1,11,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302751200	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302751702	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302751703	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302751705	Marionette	DEBUG	0 <- [1,12,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302751706	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302752209	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302752209	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302752211	Marionette	DEBUG	0 <- [1,13,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302752212	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302752714	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302752715	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302752718	Marionette	DEBUG	0 <- [1,14,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302752719	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302753221	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302753222	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302753224	Marionette	DEBUG	0 <- [1,15,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302753224	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302753727	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302753728	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302753730	Marionette	DEBUG	0 <- [1,16,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302753731	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302754233	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302754234	Marionette	DEBUG	0 -> [0,17,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302754237	Marionette	DEBUG	0 <- [1,17,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302754238	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302754740	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302754742	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302754744	Marionette	DEBUG	0 <- [1,18,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302754745	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302755247	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302755248	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302755251	Marionette	DEBUG	0 <- [1,19,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302755251	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302755754	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302755755	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302755757	Marionette	DEBUG	0 <- [1,20,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302755757	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302756259	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302756261	Marionette	DEBUG	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302756263	Marionette	DEBUG	0 <- [1,21,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302756264	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302756766	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302756767	Marionette	DEBUG	0 -> [0,22,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302756768	Marionette	DEBUG	0 <- [1,22,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302756769	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8cedc3238ea92c0d&lang=auto, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1728302757271	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302757272	Marionette	DEBUG	0 -> [0,23,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302757275	Marionette	DEBUG	0 <- [1,23,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302757275	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302757778	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302757778	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302757780	Marionette	DEBUG	0 <- [1,24,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302757781	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302758283	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302758284	Marionette	DEBUG	0 -> [0,25,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302758286	Marionette	DEBUG	0 <- [1,25,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302758287	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302758789	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302758791	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302758793	Marionette	DEBUG	0 <- [1,26,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302758794	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302759296	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302759297	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302759299	Marionette	DEBUG	0 <- [1,27,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302759299	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302759802	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302759802	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302759804	Marionette	DEBUG	0 <- [1,28,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302759806	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302760308	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302760309	Marionette	DEBUG	0 -> [0,29,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302760310	Marionette	DEBUG	0 <- [1,29,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302760311	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302760813	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302760814	Marionette	DEBUG	0 -> [0,30,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302760816	Marionette	DEBUG	0 <- [1,30,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302760817	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302761319	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302761320	Marionette	DEBUG	0 -> [0,31,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302761321	Marionette	DEBUG	0 <- [1,31,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302761322	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302761824	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302761825	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302761827	Marionette	DEBUG	0 <- [1,32,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302761827	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302762330	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302762330	Marionette	DEBUG	0 -> [0,33,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302762333	Marionette	DEBUG	0 <- [1,33,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302762334	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302762836	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302762837	Marionette	DEBUG	0 -> [0,34,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302762838	Marionette	DEBUG	0 <- [1,34,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302762839	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302763341	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302763342	Marionette	DEBUG	0 -> [0,35,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302763343	Marionette	DEBUG	0 <- [1,35,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302763344	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302763846	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302763847	Marionette	DEBUG	0 -> [0,36,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302763850	Marionette	DEBUG	0 <- [1,36,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302763851	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302764353	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302764354	Marionette	DEBUG	0 -> [0,37,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302764355	Marionette	DEBUG	0 <- [1,37,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302764356	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302764858	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302764859	Marionette	DEBUG	0 -> [0,38,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302764861	Marionette	DEBUG	0 <- [1,38,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302764861	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302765364	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302765364	Marionette	DEBUG	0 -> [0,39,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302765366	Marionette	DEBUG	0 <- [1,39,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302765366	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302765868	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302765869	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302765871	Marionette	DEBUG	0 <- [1,40,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302765871	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302766374	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302766374	Marionette	DEBUG	0 -> [0,41,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302766376	Marionette	DEBUG	0 <- [1,41,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302766376	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302766878	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302766879	Marionette	DEBUG	0 -> [0,42,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302766881	Marionette	DEBUG	0 <- [1,42,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302766881	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302767383	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302767384	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302767385	Marionette	DEBUG	0 <- [1,43,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302767386	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302767888	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302767889	Marionette	DEBUG	0 -> [0,44,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302767890	Marionette	DEBUG	0 <- [1,44,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302767891	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8cedc368cb9c2c0d&lang=auto, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1728302768393	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302768394	Marionette	DEBUG	0 -> [0,45,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302768395	Marionette	DEBUG	0 <- [1,45,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302768396	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302768898	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302768899	Marionette	DEBUG	0 -> [0,46,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302768900	Marionette	DEBUG	0 <- [1,46,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302768900	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302769403	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302769403	Marionette	DEBUG	0 -> [0,47,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302769405	Marionette	DEBUG	0 <- [1,47,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302769405	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302769907	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302769908	Marionette	DEBUG	0 -> [0,48,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302769910	Marionette	DEBUG	0 <- [1,48,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302769910	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302770413	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302770414	Marionette	DEBUG	0 -> [0,49,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302770415	Marionette	DEBUG	0 <- [1,49,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302770416	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302770918	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302770919	Marionette	DEBUG	0 -> [0,50,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302770920	Marionette	DEBUG	0 <- [1,50,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302770921	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302771423	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302771424	Marionette	DEBUG	0 -> [0,51,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302771425	Marionette	DEBUG	0 <- [1,51,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302771426	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302771928	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302771929	Marionette	DEBUG	0 -> [0,52,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302771930	Marionette	DEBUG	0 <- [1,52,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302771931	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302772433	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302772434	Marionette	DEBUG	0 -> [0,53,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302772435	Marionette	DEBUG	0 <- [1,53,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302772436	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302772938	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302772940	Marionette	DEBUG	0 -> [0,54,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302772943	Marionette	DEBUG	0 <- [1,54,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302772943	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302773445	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302773453	Marionette	DEBUG	0 -> [0,55,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302773455	Marionette	DEBUG	0 <- [1,55,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302773455	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302773957	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302773958	Marionette	DEBUG	0 -> [0,56,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302773959	Marionette	DEBUG	0 <- [1,56,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302773960	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302774462	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302774490	Marionette	DEBUG	0 -> [0,57,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302774492	Marionette	DEBUG	0 <- [1,57,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302774492	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302774995	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302774995	Marionette	DEBUG	0 -> [0,58,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302775002	Marionette	DEBUG	0 <- [1,58,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302775022	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302775524	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302775525	Marionette	DEBUG	0 -> [0,59,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302775526	Marionette	DEBUG	0 <- [1,59,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302775527	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302776029	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302776030	Marionette	DEBUG	0 -> [0,60,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302776031	Marionette	DEBUG	0 <- [1,60,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302776032	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302776534	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302776535	Marionette	DEBUG	0 -> [0,61,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302776536	Marionette	DEBUG	0 <- [1,61,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302776537	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302777039	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302777040	Marionette	DEBUG	0 -> [0,62,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302777041	Marionette	DEBUG	0 <- [1,62,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302777042	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302777544	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302777545	Marionette	DEBUG	0 -> [0,63,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302777546	Marionette	DEBUG	0 <- [1,63,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302777546	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302778048	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302778049	Marionette	DEBUG	0 -> [0,64,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302778051	Marionette	DEBUG	0 <- [1,64,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302778051	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302778553	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302778554	Marionette	DEBUG	0 -> [0,65,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302778556	Marionette	DEBUG	0 <- [1,65,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302778557	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302779059	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302779060	Marionette	DEBUG	0 -> [0,66,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302779061	Marionette	DEBUG	0 <- [1,66,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302779062	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8cedc3adabb82c0d&lang=auto, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1728302779565	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302779565	Marionette	DEBUG	0 -> [0,67,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302779567	Marionette	DEBUG	0 <- [1,67,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302779567	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302780069	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302780070	Marionette	DEBUG	0 -> [0,68,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302780071	Marionette	DEBUG	0 <- [1,68,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302780072	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302780574	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302780575	Marionette	DEBUG	0 -> [0,69,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302780576	Marionette	DEBUG	0 <- [1,69,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302780577	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302781079	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302781080	Marionette	DEBUG	0 -> [0,70,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302781083	Marionette	DEBUG	0 <- [1,70,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302781083	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302781585	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302781586	Marionette	DEBUG	0 -> [0,71,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302781587	Marionette	DEBUG	0 <- [1,71,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302781588	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302782090	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302782091	Marionette	DEBUG	0 -> [0,72,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302782092	Marionette	DEBUG	0 <- [1,72,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302782093	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302782595	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302782596	Marionette	DEBUG	0 -> [0,73,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302782597	Marionette	DEBUG	0 <- [1,73,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302782598	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302783100	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302783101	Marionette	DEBUG	0 -> [0,74,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302783102	Marionette	DEBUG	0 <- [1,74,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302783103	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302783605	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302783606	Marionette	DEBUG	0 -> [0,75,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302783607	Marionette	DEBUG	0 <- [1,75,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302783607	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302784110	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302784110	Marionette	DEBUG	0 -> [0,76,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302784112	Marionette	DEBUG	0 <- [1,76,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302784112	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302784615	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302784615	Marionette	DEBUG	0 -> [0,77,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302784617	Marionette	DEBUG	0 <- [1,77,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302784617	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302785119	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302785120	Marionette	DEBUG	0 -> [0,78,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302785121	Marionette	DEBUG	0 <- [1,78,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302785122	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302785624	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302785625	Marionette	DEBUG	0 -> [0,79,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302785626	Marionette	DEBUG	0 <- [1,79,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302785627	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302786129	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302786130	Marionette	DEBUG	0 -> [0,80,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302786133	Marionette	DEBUG	0 <- [1,80,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302786134	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302786636	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302786636	Marionette	DEBUG	0 -> [0,81,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302786638	Marionette	DEBUG	0 <- [1,81,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302786638	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302787140	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302787141	Marionette	DEBUG	0 -> [0,82,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302787143	Marionette	DEBUG	0 <- [1,82,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302787143	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302787645	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302787646	Marionette	DEBUG	0 -> [0,83,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302787647	Marionette	DEBUG	0 <- [1,83,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302787648	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302788150	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302788151	Marionette	DEBUG	0 -> [0,84,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302788152	Marionette	DEBUG	0 <- [1,84,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302788153	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302788655	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302788655	Marionette	DEBUG	0 -> [0,85,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302788657	Marionette	DEBUG	0 <- [1,85,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302788657	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302789160	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302789160	Marionette	DEBUG	0 -> [0,86,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302789162	Marionette	DEBUG	0 <- [1,86,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302789162	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302789664	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302789665	Marionette	DEBUG	0 -> [0,87,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302789666	Marionette	DEBUG	0 <- [1,87,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302789667	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302790169	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302790170	Marionette	DEBUG	0 -> [0,88,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302790171	Marionette	DEBUG	0 <- [1,88,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302790172	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8cedc3f2ed222c0d&lang=auto, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1728302790674	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302790674	Marionette	DEBUG	0 -> [0,89,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302790676	Marionette	DEBUG	0 <- [1,89,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302790676	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302791178	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302791179	Marionette	DEBUG	0 -> [0,90,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302791181	Marionette	DEBUG	0 <- [1,90,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302791181	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302791683	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302791684	Marionette	DEBUG	0 -> [0,91,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302791685	Marionette	DEBUG	0 <- [1,91,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302791686	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302792188	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302792189	Marionette	DEBUG	0 -> [0,92,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302792190	Marionette	DEBUG	0 <- [1,92,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302792191	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302792693	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302792693	Marionette	DEBUG	0 -> [0,93,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302792695	Marionette	DEBUG	0 <- [1,93,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302792695	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302793198	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302793199	Marionette	DEBUG	0 -> [0,94,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302793200	Marionette	DEBUG	0 <- [1,94,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302793201	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302793703	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302793704	Marionette	DEBUG	0 -> [0,95,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302793705	Marionette	DEBUG	0 <- [1,95,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302793706	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302794208	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302794208	Marionette	DEBUG	0 -> [0,96,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302794210	Marionette	DEBUG	0 <- [1,96,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302794210	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302794712	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302794713	Marionette	DEBUG	0 -> [0,97,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302794716	Marionette	DEBUG	0 <- [1,97,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302794716	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302795218	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302795219	Marionette	DEBUG	0 -> [0,98,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302795220	Marionette	DEBUG	0 <- [1,98,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302795221	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302795723	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302795724	Marionette	DEBUG	0 -> [0,99,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302795725	Marionette	DEBUG	0 <- [1,99,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302795726	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302796228	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302796229	Marionette	DEBUG	0 -> [0,100,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302796230	Marionette	DEBUG	0 <- [1,100,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302796231	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302796733	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302796734	Marionette	DEBUG	0 -> [0,101,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302796735	Marionette	DEBUG	0 <- [1,101,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302796736	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302797238	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302797239	Marionette	DEBUG	0 -> [0,102,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302797240	Marionette	DEBUG	0 <- [1,102,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302797241	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302797743	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302797744	Marionette	DEBUG	0 -> [0,103,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302797745	Marionette	DEBUG	0 <- [1,103,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302797746	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302798248	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302798249	Marionette	DEBUG	0 -> [0,104,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302798250	Marionette	DEBUG	0 <- [1,104,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302798250	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302798753	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302798753	Marionette	DEBUG	0 -> [0,105,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302798755	Marionette	DEBUG	0 <- [1,105,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302798755	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302799257	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302799258	Marionette	DEBUG	0 -> [0,106,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302799260	Marionette	DEBUG	0 <- [1,106,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302799260	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302799763	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302799763	Marionette	DEBUG	0 -> [0,107,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302799766	Marionette	DEBUG	0 <- [1,107,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302799766	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302800268	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302800269	Marionette	DEBUG	0 -> [0,108,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302800271	Marionette	DEBUG	0 <- [1,108,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302800271	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302800773	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302800774	Marionette	DEBUG	0 -> [0,109,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302800775	Marionette	DEBUG	0 <- [1,109,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302800776	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+JavaScript warning: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/orchestrate/chl_api/v1?ray=8cedc438091b2c0d&lang=auto, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1728302801277	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302801278	Marionette	DEBUG	0 -> [0,110,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302801279	Marionette	DEBUG	0 <- [1,110,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302801280	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302801782	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302801783	Marionette	DEBUG	0 -> [0,111,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302801784	Marionette	DEBUG	0 <- [1,111,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302801784	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302802286	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302802287	Marionette	DEBUG	0 -> [0,112,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302802288	Marionette	DEBUG	0 <- [1,112,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302802289	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302802791	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302802792	Marionette	DEBUG	0 -> [0,113,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302802793	Marionette	DEBUG	0 <- [1,113,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302802794	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302803296	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302803297	Marionette	DEBUG	0 -> [0,114,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302803299	Marionette	DEBUG	0 <- [1,114,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302803299	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302803801	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302803805	Marionette	DEBUG	0 -> [0,115,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302803808	Marionette	DEBUG	0 <- [1,115,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302803809	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302804311	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302804311	Marionette	DEBUG	0 -> [0,116,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302804313	Marionette	DEBUG	0 <- [1,116,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302804313	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302804816	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302804816	Marionette	DEBUG	0 -> [0,117,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302804818	Marionette	DEBUG	0 <- [1,117,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302804819	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302805321	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302805322	Marionette	DEBUG	0 -> [0,118,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302805324	Marionette	DEBUG	0 <- [1,118,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302805324	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302805826	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302805827	Marionette	DEBUG	0 -> [0,119,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302805828	Marionette	DEBUG	0 <- [1,119,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302805829	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302806331	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302806332	Marionette	DEBUG	0 -> [0,120,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302806333	Marionette	DEBUG	0 <- [1,120,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302806334	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302806836	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302806836	Marionette	DEBUG	0 -> [0,121,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302806838	Marionette	DEBUG	0 <- [1,121,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302806838	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302807340	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302807341	Marionette	DEBUG	0 -> [0,122,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302807343	Marionette	DEBUG	0 <- [1,122,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302807344	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302807846	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302807847	Marionette	DEBUG	0 -> [0,123,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302807849	Marionette	DEBUG	0 <- [1,123,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302807849	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302808352	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302808352	Marionette	DEBUG	0 -> [0,124,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302808354	Marionette	DEBUG	0 <- [1,124,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302808354	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302808856	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302808857	Marionette	DEBUG	0 -> [0,125,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302808858	Marionette	DEBUG	0 <- [1,125,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302808859	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302809361	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302809361	Marionette	DEBUG	0 -> [0,126,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302809363	Marionette	DEBUG	0 <- [1,126,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302809363	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302809865	webdriver::server	DEBUG	-> POST /session/8bb38ee6-740a-4a54-b955-1d8090d784dc/element {"using": "css selector", "value": ".download-complete"}
+1728302809866	Marionette	DEBUG	0 -> [0,127,"WebDriver:FindElement",{"using":"css selector","value":".download-complete"}]
+1728302809867	Marionette	DEBUG	0 <- [1,127,{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... chrome://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"},null]
+1728302809868	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: .download-complete","stacktrace":"R ... e://remote/content/shared/webdriver/Errors.sys.mjs:511:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}}
+1728302810370	webdriver::server	DEBUG	-> DELETE /session/8bb38ee6-740a-4a54-b955-1d8090d784dc 
+1728302810371	Marionette	DEBUG	0 -> [0,128,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1728302810372	Marionette	INFO	Stopped listening on port 36059
+1728302810374	Marionette	TRACE	[11] MarionetteCommands actor destroyed for window id 12884901889
+1728302810870	Marionette	TRACE	Received observer notification quit-application
+1728302810874	Marionette	TRACE	Received observer notification quit-application
+1728302810874	RemoteAgent	DEBUG	Resetting recommended pref apz.content_response_timeout
+1728302810874	RemoteAgent	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1728302810874	RemoteAgent	DEBUG	Resetting recommended pref browser.download.panel.shown
+1728302810874	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.activity-stream.discoverystream.region-weather-config
+1728302810874	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.activity-stream.newtabWallpapers.enabled
+1728302810874	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled
+1728302810874	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.activity-stream.showSponsoredTopSites
+1728302810875	RemoteAgent	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1728302810875	RemoteAgent	DEBUG	Resetting recommended pref browser.region.network.url
+1728302810875	RemoteAgent	DEBUG	Resetting recommended pref browser.safebrowsing.blockedURIs.enabled
+1728302810878	RemoteAgent	DEBUG	Resetting recommended pref browser.safebrowsing.downloads.enabled
+1728302810881	RemoteAgent	DEBUG	Resetting recommended pref browser.safebrowsing.phishing.enabled
+1728302810884	RemoteAgent	DEBUG	Resetting recommended pref browser.startup.couldRestoreSession.count
+1728302810884	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.remote.unloadDelayMs
+1728302810884	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1728302810884	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1728302810884	RemoteAgent	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1728302810884	RemoteAgent	DEBUG	Resetting recommended pref browser.topsites.contile.enabled
+1728302810884	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.merino.endpointURL
+1728302810886	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1728302810887	RemoteAgent	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1728302810887	RemoteAgent	DEBUG	Resetting recommended pref dom.file.createInChild
+1728302810887	RemoteAgent	DEBUG	Resetting recommended pref dom.input_events.security.minNumTicks
+1728302810887	RemoteAgent	DEBUG	Resetting recommended pref dom.input_events.security.minTimeElapsedInMS
+1728302810887	RemoteAgent	DEBUG	Resetting recommended pref dom.navigation.locationChangeRateLimit.count
+1728302810887	RemoteAgent	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1728302810887	RemoteAgent	DEBUG	Resetting recommended pref dom.screenorientation.allow-lock
+1728302810887	RemoteAgent	DEBUG	Resetting recommended pref dom.successive_dialog_time_limit
+1728302810888	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1728302810888	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1728302810888	RemoteAgent	DEBUG	Resetting recommended pref extensions.blocklist.detailsURL
+1728302810888	RemoteAgent	DEBUG	Resetting recommended pref extensions.blocklist.itemURL
+1728302810888	RemoteAgent	DEBUG	Resetting recommended pref extensions.hotfix.url
+1728302810888	RemoteAgent	DEBUG	Resetting recommended pref extensions.systemAddon.update.enabled
+1728302810888	RemoteAgent	DEBUG	Resetting recommended pref extensions.update.background.url
+1728302810888	RemoteAgent	DEBUG	Resetting recommended pref extensions.update.url
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.get.url
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.search.browseURL
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref geo.provider.network.url
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref identity.fxaccounts.auth.uri
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref network.connectivity-service.enabled
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref remote.prefs.recommended.applied
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref security.notification_enable_delay
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref security.remote_settings.intermediates.enabled
+1728302810889	RemoteAgent	DEBUG	Resetting recommended pref signon.autofillForms
+1728302810890	RemoteAgent	DEBUG	Resetting recommended pref toolkit.telemetry.server
+1728302810890	RemoteAgent	DEBUG	Resetting recommended pref widget.windows.window_occlusion_tracking.enabled
+1728302810890	RemoteAgent	DEBUG	Resetting recommended pref permissions.isolateBy.userContext
+1728302810890	RemoteAgent	TRACE	Received observer notification quit-application
+1728302810890	Marionette	DEBUG	Marionette stopped listening
+1728302810891	Marionette	DEBUG	0 <- [1,128,null,{"cause":"shutdown","forced":false,"in_app":true}]
+1728302810915	webdriver::server	DEBUG	Teardown session
+1728302810918	Marionette	DEBUG	Closed connection 0
+[Parent 14250, IPC I/O Parent] WARNING: process 14333 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+[Parent 14250, IPC I/O Parent] WARNING: process 14437 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+[Parent 14250, IPC I/O Parent] WARNING: process 14462 is a zombie: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:245
+1728302811115	geckodriver::browser	DEBUG	Browser process stopped: exit status: 0
+1728302811138	webdriver::server	DEBUG	<- 200 OK {"value":null}

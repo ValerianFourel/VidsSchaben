@@ -1,0 +1,112 @@
+{
+  "Fitness_Youtubers": [
+    {
+      "name": "Jeff Nippard",
+      "focus": "Evidence-based training, bodybuilding, powerlifting, fat loss"
+    },
+    {
+      "name": "Athlean-X (Jeff Cavaliere)",
+      "focus": "Functional strength training, injury prevention, sports conditioning"
+    },
+    {
+      "name": "Chloe Ting",
+      "focus": "Ab and cardio routines, workout challenges"
+    },
+    {
+      "name": "Fitness Blender (Kelli and Daniel)",
+      "focus": "Strength training, HIIT, cardio, full-length workouts"
+    },
+    {
+      "name": "Pamela Reif",
+      "focus": "Quick and effective workouts, HIIT, strength, cardio"
+    },
+    {
+      "name": "Chris Heria (Thenx)",
+      "focus": "Calisthenics, bodyweight training"
+    },
+    {
+      "name": "MattDoesFitness",
+      "focus": "Gym routines, strength training, diet tips"
+    },
+    {
+      "name": "Whitney Simmons",
+      "focus": "Gym workouts, home routines, lifestyle"
+    },
+    {
+      "name": "Natacha Océane",
+      "focus": "Functional fitness, science-backed workouts, challenges"
+    },
+    {
+      "name": "MadFit (Maddie Lymburner)",
+      "focus": "Bodyweight workouts, dance cardio, no equipment needed"
+    },
+    {
+      "name": "Omar Isuf",
+      "focus": "Bodybuilding, powerlifting, athletic training"
+    },
+    {
+      "name": "Mark Bell",
+      "focus": "Strength training, powerlifting, bodybuilding"
+    },
+    {
+      "name": "Alan Thrall",
+      "focus": "Powerlifting, strength training, educational content"
+    },
+    {
+      "name": "The Lean Machines",
+      "focus": "CrossFit, fitness, nutrition"
+    },
+    {
+      "name": "Katrin Davidsdottir",
+      "focus": "CrossFit training"
+    },
+    {
+      "name": "Nick Bare (Bare Performance Nutrition)",
+      "focus": "Bodybuilding, endurance training, CrossFit-style workouts"
+    },
+    {
+      "name": "Simeon Panda",
+      "focus": "Bodybuilding, motivational content"
+    },
+    {
+      "name": "Christian Guzman",
+      "focus": "Bodybuilding, fitness vlogs, nutrition"
+    },
+    {
+      "name": "David Laid",
+      "focus": "Bodybuilding, aesthetic training, transformations"
+    },
+    {
+      "name": "Mike Thurston",
+      "focus": "Bodybuilding, aesthetic training, workout challenges"
+    },
+    {
+      "name": "Ryan Terry",
+      "focus": "Bodybuilding, IFBB pro content, aesthetic training"
+    },
+    {
+      "name": "Juice & Toya",
+      "focus": "Home workouts, bodyweight training, resistance band routines"
+    },
+    {
+      "name": "Sydney Cummings",
+      "focus": "At-home workouts, functional fitness, strength training"
+    },
+    {
+      "name": "Caroline Girvan",
+      "focus": "Strength, HIIT, core, home fitness"
+    },
+    {
+      "name": "BodyFit by Amy",
+      "focus": "Prenatal, postnatal, bodyweight training, modifications for various levels"
+    },
+    {
+      "name": "Yoga with Adriene",
+      "focus": "Yoga for all skill levels"
+    },
+    {
+      "name": "Boho Beautiful (Juliana & Mark)",
+      "focus": "Yoga, pilates, meditation"
+    }
+  ]
+}

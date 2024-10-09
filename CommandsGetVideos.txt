@@ -1,0 +1,8 @@
+yt-dlp -s --flat-playlist --print-to-file  url  listAthleanXPlaylists.txt  "https://www.youtube.com/@athleanx/playlists"
+yt-dlp -s --flat-playlist --print-to-file  url  listAthleanXVideos.txt "https://www.youtube.com/@athleanx/videos"
+yt-dlp -i --flat-playlist --print-to-file "%(upload_date)s %(duration)s %(view_count)s %(like_count)s %(title)s | %(id)s | %(webpage_url)s | %(description)s" listAthleanXVideosV3.txt "https://www.youtube.com/@athleanx/videos"
+
+Oct 6th 2024:
+This is the commands to get easy to parse Json files from the videos:
+yt-dlp -i --flat-playlist --print-to-file "| %(upload_date)s | %(duration)s | %(view_count)s | %(like_count)s | %(title)s | %(id)s | %(webpage_url)s | %(description)s \_/" list_MadFit_VideosSmallDataset.txt "https://www.youtube.com/@MadFit/videos"
+
