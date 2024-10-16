@@ -36,7 +36,7 @@ with open(file_path, 'r') as file:
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
-base_download_dir="/home/vfourel/ProjectGym/FireFox/DownloadedOutput"
+base_download_dir="/home/vfourel/ProjectGym/DownloadedOutputHighQuality"
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -273,7 +273,7 @@ def check_and_rename_mp4_files(directory, timestamp,id):
                 os.rename(file_path, new_file_path)
                 print(f"Renamed {filename} to {new_filename}")
 
-def setup_firefox_webdriver(download_dir="/home/vfourel/ProjectGym/FireFox/DownloadedOutput", geckodriver_path="/usr/local/bin/geckodriver"):
+def setup_firefox_webdriver(download_dir="/home/vfourel/ProjectGym/DownloadedOutputHighQuality", geckodriver_path="/usr/local/bin/geckodriver"):
     # Set up the Firefox profile
     firefox_profile = webdriver.FirefoxProfile()
     firefox_profile.set_preference("browser.download.folderList", 2)  # 2 means custom directory

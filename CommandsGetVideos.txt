@@ -6,3 +6,6 @@ Oct 6th 2024:
 This is the commands to get easy to parse Json files from the videos:
 yt-dlp -i --flat-playlist --print-to-file "| %(upload_date)s | %(duration)s | %(view_count)s | %(like_count)s | %(title)s | %(id)s | %(webpage_url)s | %(description)s \_/" list_MadFit_VideosSmallDataset.txt "https://www.youtube.com/@MadFit/videos"
 
+Oct 16th 2024:
+
+yt-dlp -i --flat-playlist --print-to-file "| %(upload_date)s | %(duration)s | %(view_count)s | %(like_count)s | %(title)s | %(id)s | %(webpage_url)s | %(description)s \_/" list_PamelaRf1_VideosSmallDataset.txt "https://www.youtube.com/@PamelaRf1"

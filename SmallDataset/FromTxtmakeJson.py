@@ -1,5 +1,8 @@
 import json
 import re
+import sys
+import os
+
 
 def parse_entry(entry):
     pattern = r'\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(\d+|\w+)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*([\w-]+)\s*\|\s*(https?://\S+)\s*\|\s*(.*?)\s*\_/'
@@ -49,11 +52,30 @@ def save_json(data, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-# Usage
-input_file = 'list_OFFICIALTHENXSTUDIOS_VideosSmallDataset.txt'
-output_file = '_OFFICIALTHENXSTUDIOS_VideosObject.json'
+# Main function to handle command line input
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python script.py <input_file.txt>")
+        sys.exit(1)
 
-data = process_file(input_file)
-save_json(data, output_file)
+    input_file = sys.argv[1]
+    
+    # Get the file name without extension
+    file_name_without_ext = os.path.splitext(os.path.basename(input_file))[0]
 
-print(f"JSON file has been created: {output_file}")
+    # Define the processedJson folder in the current directory where the script is located
+    output_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'processedJson')
+    
+    # Ensure the processedJson folder exists (although it should already)
+    if not os.path.exists(output_folder):
+        print(f"Error: processedJson folder does not exist in the current directory.")
+        sys.exit(1)
+    
+    # Define the output file path inside processedJson
+    output_file = os.path.join(output_folder, f"{file_name_without_ext}_VideosObject.json")
+    
+    # Process the file and save the output
+    data = process_file(input_file)
+    save_json(data, output_file)
+
+    print(f"JSON file has been created in: {output_file}")
