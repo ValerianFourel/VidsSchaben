@@ -32,13 +32,12 @@ def process_json_files():
     reduced_videos = {}
     for subject, videos in videos_by_subject.items():
         video_ids = list(videos.keys())
-        selected_ids = random.sample(video_ids, min(10, len(video_ids)))
-        for video_id in selected_ids:
+        for video_id in video_ids:
             reduced_videos[video_id] = videos[video_id]
             reduced_videos[video_id]['subject_name'] = subject
 
     # Create a single JSON file with reduced matching videos
-    output_filename = "Minutes_matchingVideosReduced.json"
+    output_filename = "Minutes_matchingVideosTest.json"
     with open(output_filename, 'w', encoding='utf-8') as outfile:
         json.dump(reduced_videos, outfile, indent=2)
 
