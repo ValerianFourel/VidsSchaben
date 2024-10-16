@@ -3,6 +3,13 @@ import os
 from collections import defaultdict
 import sys 
 
+
+def remove_folder_and_slashes(file_path):
+    return file_path.split('/')[-1]
+
+def remove_after_underscore(s):
+    return s.split('_')[0]
+
 def generate_unique_filename(base_name, extension, folder):
     """Generates a unique filename by appending _2, _3, etc., if a file already exists."""
     filename = f"{base_name}{extension}"
@@ -23,8 +30,13 @@ def process_json_file(input_file, search_terms, output_folder):
 
     # Extract subject name from the filename and replace leading "_" with "@"
     subject_name = input_file.replace('_VideosObject.json', '')
+    subject_name = remove_folder_and_slashes(subject_name)
+
     if subject_name.startswith('_'):
         subject_name = '@' + subject_name[1:]
+    
+    subject_name = remove_after_underscore(subject_name)
+
 
     # Read the JSON file
     with open(input_file, 'r', encoding='utf-8') as file:

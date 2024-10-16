@@ -62,9 +62,10 @@ if __name__ == "__main__":
     
     # Get the file name without extension
     file_name_without_ext = os.path.splitext(os.path.basename(input_file))[0]
+    result = file_name_without_ext[4:]
 
     # Define the processedJson folder in the current directory where the script is located
-    output_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'processedJson')
+    output_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ProcessedJson')
     
     # Ensure the processedJson folder exists (although it should already)
     if not os.path.exists(output_folder):
@@ -72,7 +73,7 @@ if __name__ == "__main__":
         sys.exit(1)
     
     # Define the output file path inside processedJson
-    output_file = os.path.join(output_folder, f"{file_name_without_ext}_VideosObject.json")
+    output_file = os.path.join(output_folder, f"{result}_VideosObject.json")
     
     # Process the file and save the output
     data = process_file(input_file)
